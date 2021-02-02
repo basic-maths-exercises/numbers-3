@@ -18,7 +18,6 @@ class UnitTests(unittest.TestCase) :
             val = np.random.randint(1,9999)
             inputs.append((val,))
             oval = np.zeros(4)
-            arr = getNumberArray(val) 
             for j in range(4) : 
                 ppp = 10**(3-j)
                 oval[j] = int(np.floor( val / ppp ) )
