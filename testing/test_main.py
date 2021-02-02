@@ -24,4 +24,4 @@ class UnitTests(unittest.TestCase) :
                 oval[j] = int(np.floor( val / ppp ) )
                 val = val - oval[j]*ppp
             outputs.append( oval )
-         assert( fc.check_func('getNumberArray', inputs, outputs ) )
+        assert( fc.check_func('getNumberArray', inputs, outputs ) )
